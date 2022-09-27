@@ -15,6 +15,9 @@ body{
 .theme2-bg{
     background-color: hsl(0, 0%, 90%);
 }
+.theme3-bg{
+    background-color: hsl(268, 75%, 9%);
+}
 main{
     width: 340px;
     margin: 20% auto;
@@ -73,6 +76,11 @@ header h2{
     transition: ease .3s;
     /* transform: translateX(calc(var(--width) * 2) ); */
 }
+.theme1-num,
+.theme2-num,
+.theme3-num{
+    cursor: pointer;
+}
 .display{
     margin-top: .7rem;
 }
@@ -84,9 +92,6 @@ header h2{
     border: none;
     color: hsl(0, 0%, 100%);
     font-size: 1.7rem;
-}
-.theme2-display-bg{
-    background-color: hsl(0, 0%, 93%);
 }
 .answer{
     letter-spacing: 3px;
@@ -111,8 +116,11 @@ header h2{
     grid-template-rows: repeat(5, 65px);
     grid-gap: 15px;
 }
-.keys-bg{
+.keys-bg2{
     background-color: hsl(0, 5%, 81%);
+}
+.keys-bg3{
+    background-color: hsl(268, 71%, 12%);
 }
 .number-btn{
     display: flex;
@@ -140,6 +148,14 @@ header h2{
 .theme2-keys:hover{
     background-color: hsl(45, 7%, 95%);
 }
+.theme3-keys{
+    background-color: hsl(281, 89%, 26%);
+    box-shadow: 0 5px 0 hsl(285, 91%, 52%);
+    color: hsl(52, 100%, 62%);
+}
+.theme3-keys:hover{
+    background-color: hsl(281, 89%, 56%);
+}
 .clear{
     display: flex;
     align-items: center;
@@ -154,12 +170,19 @@ header h2{
 .clear:hover{
     background-color: hsl(225, 21%, 60%);
 }
-.theme2-clear1{
+.theme2-clear{
     background-color: hsl(185, 42%, 37%);
     box-shadow: 0 5px 0 hsl(185, 58%, 25%);
 }
-.theme2-clear1:hover{
+.theme2-clear:hover{
     background-color: hsl(185, 42%, 57%);
+}
+.theme3-clear{
+    background-color: hsl(268, 47%, 21%);
+    box-shadow: 0 5px 0 hsl(290, 70%, 36%);
+}
+.theme3-clear:hover{
+    background-color: hsl(268, 47%, 51%);
 }
 .reset-btn{
     grid-column: 1 / 3;
@@ -179,10 +202,17 @@ header h2{
 .equal-btn:hover{
     background-color: hsl(6, 63%, 61%);
 }
-.theme2-equal1{
+.theme2-equal{
     background-color: hsl(25, 98%, 40%);
     box-shadow: 0 5px 0 hsl(25, 99%, 27%);
 }
-.theme2-equal1:hover{
+.theme2-equal:hover{
     background-color: hsl(25, 98%, 70%);
+}
+.theme3-equal{
+    background-color: hsl(176, 100%, 44%);
+    box-shadow: 0 5px 0 hsl(177, 92%, 70%);
+}
+.theme3-equal:hover{
+    background-color: hsl(176, 100%, 74%);
 }
