@@ -27,6 +27,7 @@ const themeBg = document.querySelector(".theme-bg")
 const displayBg = document.querySelector(".display-answer")
 const keysBg = document.querySelector(".input-btn")
 const toggleSwitchBg = document.querySelector(".toggle-switch")
+
 // const themeTextColor = document.querySelector(".theme-txt-cl")
 
 zero.addEventListener("click", () => {
@@ -109,6 +110,7 @@ del.addEventListener("click", () => {
 })
 theme1.addEventListener("click", () => {
     toggleSwitch.style.transform = `translateX(0)`
+    toggleSwitch.style.background =  "hsl(6, 70%, 34%)"
     themeBg.classList.remove("theme2-bg")
     displayBg.classList.remove("theme2-display-bg")
     document.querySelector(".theme1-num").style.color = "hsl(0, 0%, 100%)"
@@ -134,9 +136,13 @@ theme1.addEventListener("click", () => {
     keysBg.classList.remove("keys-bg")
     toggleSwitchBg.classList.remove("keys-bg")
     displayBg.style.color = "white"
+    del.classList.remove(".theme2-clear1")
+    reset.classList.remove(".theme2-clear1")
+    equal.classList.remove("theme2-equal1")
 })
 theme2.addEventListener("click", () => {
     toggleSwitch.style.transform = `translateX(calc(var(--width) * 2) )`
+    toggleSwitch.style.background = "hsl(25, 98%, 40%)"
     themeBg.classList.add("theme2-bg")
     displayBg.classList.add("theme2-display-bg")
     // themeColoredNum.classList.add("theme-txt-cl")
@@ -163,4 +169,7 @@ theme2.addEventListener("click", () => {
     keysBg.classList.add("keys-bg")
     toggleSwitchBg.classList.add("keys-bg")
     displayBg.style.color = "hsl(60, 10%, 19%)"
+    del.classList.add("theme2-clear1")
+    reset.classList.add("theme2-clear1")
+    equal.classList.add("theme2-equal1")
 })
