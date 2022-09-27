@@ -136,8 +136,8 @@ theme1.addEventListener("click", () => {
     keysBg.classList.remove("keys-bg")
     toggleSwitchBg.classList.remove("keys-bg")
     displayBg.style.color = "white"
-    del.classList.remove(".theme2-clear1")
-    reset.classList.remove(".theme2-clear1")
+    del.classList.remove("theme2-clear1")
+    reset.classList.remove("theme2-clear1")
     equal.classList.remove("theme2-equal1")
 })
 theme2.addEventListener("click", () => {
