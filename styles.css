@@ -132,6 +132,14 @@ header h2{
 .number-btn:hover{
     background-color: hsl(30, 25%, 97%);
 }
+.theme2-keys{
+    background-color: hsl(45, 7%, 89%);
+    box-shadow: 0 5px 0 hsl(35, 11%, 61%);
+    color: hsl(60, 10%, 19%);
+}
+.theme2-keys:hover{
+    background-color: hsl(45, 7%, 95%);
+}
 .clear{
     display: flex;
     align-items: center;

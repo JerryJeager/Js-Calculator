@@ -118,21 +118,21 @@ theme1.addEventListener("click", () => {
     document.querySelector(".theme3-num").style.color = "hsl(0, 0%, 100%)"
     document.querySelector(".theme").style.color = "hsl(0, 0%, 100%)"
     document.querySelector(".logo-h").style.color = "hsl(0, 0%, 100%)"
-    document.querySelector(".seven-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".eight-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".nine-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".four-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".five-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".six-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".plus-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".one-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".two-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".three-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".minus-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".point-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".zero-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".divide-btn").style.color = "hsl(221, 14%, 31%)"
-    document.querySelector(".multiply-btn").style.color = "hsl(221, 14%, 31%)"
+    seven.classList.remove("theme2-keys")
+    eight.classList.remove("theme2-keys")
+    nine.classList.remove("theme2-keys")
+    four.classList.remove("theme2-keys")
+    five.classList.remove("theme2-keys")
+    six.classList.remove("theme2-keys")
+    plus.classList.remove("theme2-keys")
+    one.classList.remove("theme2-keys")
+    two.classList.remove("theme2-keys")
+    three.classList.remove("theme2-keys")
+    minus.classList.remove("theme2-keys")
+    point.classList.remove("theme2-keys")
+    zero.classList.remove("theme2-keys")
+    divide.classList.remove("theme2-keys")
+    multiply.classList.remove("theme2-keys")
     keysBg.classList.remove("keys-bg")
     toggleSwitchBg.classList.remove("keys-bg")
     displayBg.style.color = "white"
@@ -151,21 +151,21 @@ theme2.addEventListener("click", () => {
     document.querySelector(".theme3-num").style.color = "hsl(60, 10%, 19%)"
     document.querySelector(".theme").style.color = "hsl(60, 10%, 19%)"
     document.querySelector(".logo-h").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".seven-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".eight-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".nine-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".four-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".five-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".six-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".plus-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".one-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".two-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".three-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".minus-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".point-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".zero-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".divide-btn").style.color = "hsl(60, 10%, 19%)"
-    document.querySelector(".multiply-btn").style.color = "hsl(60, 10%, 19%)"
+    seven.classList.add("theme2-keys")
+    eight.classList.add("theme2-keys")
+    nine.classList.add("theme2-keys")
+    four.classList.add("theme2-keys")
+    five.classList.add("theme2-keys")
+    six.classList.add("theme2-keys")
+    plus.classList.add("theme2-keys")
+    one.classList.add("theme2-keys")
+    two.classList.add("theme2-keys")
+    three.classList.add("theme2-keys")
+    minus.classList.add("theme2-keys")
+    point.classList.add("theme2-keys")
+    zero.classList.add("theme2-keys")
+    divide.classList.add("theme2-keys")
+    multiply.classList.add("theme2-keys")
     keysBg.classList.add("keys-bg")
     toggleSwitchBg.classList.add("keys-bg")
     displayBg.style.color = "hsl(60, 10%, 19%)"
