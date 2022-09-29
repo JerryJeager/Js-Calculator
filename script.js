@@ -101,11 +101,15 @@ equal.addEventListener("click", () => {
     // list.classList.toggle("list")
 })
 reset.addEventListener("click", () => {
+    deleteItems.pop()
+    for(elements of deleteItems){
+        deleteItems.pop()
+    }
     displayAnswer.textContent = ""
     total.textContent = ""
 })
 del.addEventListener("click", () => {
-    deleteItems.pop()
+    deleteItems.length = 0
     displayAnswer.textContent = deleteItems.join('')
     // total.textContent = eval(`${displayAnswer.textContent}`)
 })
